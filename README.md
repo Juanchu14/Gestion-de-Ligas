@@ -1,2 +1,2 @@
-# Gesti-n-de-Ligas
+# Gestion-de-Ligas
 Proyecto realizado por José Manuel Gonzalez y Juan Sandoval
