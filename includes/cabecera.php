@@ -8,12 +8,15 @@
 </head>
 <body>
 
-<header style="background-color: #2c3e50; color: white; padding: 10px 20px; margin-bottom: 20px;">
-    <div style="display: flex; justify-content: space-between; align-items: center;">
-        <h2 style="margin: 0;">🏆 Gestión de Ligas</h2>
+<header style="background-color: var(--dark-navy); color: white; padding: 15px 0; box-shadow: 0 2px 10px rgba(0,0,0,0.2);">
+    <div style="max-width: 1000px; margin: 0 auto; display: flex; justify-content: space-between; align-items: center; padding: 0 20px;">
+        <div style="display: flex; align-items: center;">
+            <img src="img/Logo.png" alt="Logo" style="height: 50px; margin-right: 15px;">
+            <h1 style="color: white; margin: 0; font-size: 1.5em;">LigaGo</h1>
+        </div>
         <nav>
-            <a href="index.php" style="color: white; text-decoration: none; margin-left: 15px;">Inicio</a>
-            <a href="nueva_liga.php" style="color: white; text-decoration: none; margin-left: 15px;">+ Nueva Liga</a>
+            <a href="index.php" style="color: white; text-decoration: none; margin-left: 20px; font-weight: 500;">Inicio</a>
+            <a href="nueva_liga.php" class="btn btn-nuevo" style="margin-left: 20px; font-size: 0.8em;">+ CREAR LIGA</a>
         </nav>
     </div>
 </header>

@@ -1,0 +1,93 @@
+/* Paleta LigaGo - Proyecto Juan Sandoval y José Manuel [cite: 4] */
+:root {
+    --dark-navy: #1b263b;
+    --liga-green: #aacc00;
+    --liga-teal: #20c997;
+    --accent-orange: #f39c12;
+    --bg-light: #f4f7f9;
+    --white: #ffffff;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: var(--bg-light);
+    color: var(--dark-navy);
+    margin: 0;
+    line-height: 1.6;
+}
+
+/* Títulos */
+h1, h2, h3 {
+    color: var(--dark-navy);
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+/* Botones con bordes redondeados (estilo deportivo) */
+.btn {
+    padding: 10px 20px;
+    border-radius: 30px; /* Más redondo, como el logo */
+    text-decoration: none;
+    font-weight: bold;
+    display: inline-block;
+    transition: transform 0.2s, background 0.3s;
+    border: none;
+    cursor: pointer;
+}
+
+.btn:hover {
+    transform: scale(1.05);
+}
+
+.btn-nuevo { background-color: var(--liga-green); color: var(--dark-navy); }
+.btn-ver { background-color: var(--dark-navy); color: var(--white); }
+.btn-gestion { background-color: var(--accent-orange); color: var(--white); }
+
+/* Tablas Modernas [cite: 130] */
+table {
+    width: 100%;
+    border-collapse: separate;
+    border-spacing: 0;
+    background: var(--white);
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.05);
+    margin-top: 20px;
+}
+
+th {
+    background-color: var(--dark-navy);
+    color: var(--white);
+    padding: 15px;
+    text-align: left;
+}
+
+td {
+    padding: 12px 15px;
+    border-bottom: 1px solid #eee;
+}
+
+tr:last-child td { border-bottom: none; }
+tr:hover { background-color: #f0fdf4; }
+
+/* Formularios [cite: 124] */
+form {
+    background: var(--white);
+    padding: 25px;
+    border-radius: 15px;
+    box-shadow: 0 5px 20px rgba(0,0,0,0.05);
+}
+
+input, select, textarea {
+    width: 100%;
+    padding: 12px;
+    margin: 8px 0 20px 0;
+    border: 2px solid #e1e8ed;
+    border-radius: 8px;
+    box-sizing: border-box;
+}
+
+input:focus {
+    border-color: var(--liga-teal);
+    outline: none;
+}

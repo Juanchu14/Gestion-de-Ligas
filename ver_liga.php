@@ -37,7 +37,6 @@ include 'db/conexion.php';
 include 'includes/cabecera.php'; // Esto mete el <head>, el CSS y el menú
 ?>
 
-    <input type="button" value="← Volver al panel" onclick="location.href='index.php'">
     
     <h1>📊 Clasificación: <?php echo $datos_liga['nombre']; ?></h1>
 
